@@ -1,0 +1,97 @@
+@media (max-width: 1200px) {
+/* HEAD SECTION FOR TABLET: START */
+    .wrapper {
+        padding: 80px 0;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 690px;
+    }
+
+    .wrapper .headline {
+        font-size: 38px;
+    }
+
+    .wrapper .aditional-info {
+        gap: 20px;
+    }
+
+    .wrapper .numb {
+        font-size: 1.3rem;
+    }
+    .wrapper .desc {
+        font-size: 1rem;
+    }
+    .nft-box-pc .nft-img {
+        width: 24rem;
+        height: 13.9rem;
+    }
+
+    .nft-desc .box-container {
+        height: 330px;
+        overflow: auto;
+    }
+    .nft-box-pc .nft-desc {
+        width: 330px;
+    }
+
+/* HEAD SECTION FOR TABLET: END */
+
+}
+
+
+
+@media (max-width: 768px) {
+/* HEAD SECTION FOR MOBILE: START */
+    .wrapper {
+        padding: 40px 0;
+        max-width: 315px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+    }
+    .wrapper .hero-section {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .wrapper .hero-section .head {
+        display: flex;
+    gap: 10px;
+    flex-direction: column;
+    }
+
+    .wrapper .headline {
+        font-size: 28px;
+    }
+    
+    .wrapper .subhead {
+        font-size: 16px;
+    }
+
+    .wrapper .sub-info {
+        display: flex;
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .wrapper .getstarted-btn {
+        padding: 0 50px;
+        width: 100%;
+    }
+
+    .nft-box-pc {
+        display: none;
+    }
+
+    .nft-box-mobile {
+        display: block;
+    }
+
+/* HEAD SECTION FOR MOBILE: END */
+    
+}

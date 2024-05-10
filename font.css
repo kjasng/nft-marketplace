@@ -1,0 +1,24 @@
+@font-face {
+    font-family: WorkSans-Thin;
+    src: url('./fonts/WorkSans-Thin.ttf');
+}
+
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url('./fonts/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: WorkSans-Medium;
+    src: url('./fonts/WorkSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: WorkSans-Bold;
+    src: url('./fonts/WorkSans-Bold.ttf');
+}
+
+@font-face {
+    font-family: WorkSans-Black;
+    src: url('./fonts/WorkSans-Black.ttf');
+}

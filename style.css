@@ -1,0 +1,167 @@
+:root {
+    --white: #fff;
+}
+
+/* HEADER SECTION CSS: START */
+
+.container {
+background: #2B2B2B;
+width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1050px;
+    margin: auto;
+    padding: 80px 115px;
+    gap: 30px;
+}
+
+.wrapper .hero-section, .wrapper .trending-collection-head {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.wrapper .hero-section .head {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.wrapper .headline {
+    color: var(--white);
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 110%;
+}
+
+.wrapper .subhead {
+    font-size: 1.3rem;
+    line-height: 160%;
+    color: var(--white);
+}
+
+.wrapper .sub-info {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.wrapper .getstarted-btn {
+    color: var(--white);
+    display: flex;
+    gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #A259FF;
+    border-radius: 20px;
+    padding: 0 50px;
+    height: 50px;
+    width: 14rem;
+}
+
+.wrapper .aditional-info {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+
+.wrapper .numb {
+    font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: 140%;
+color: var(--white);
+align-self: stretch;
+font-family: "Space Mono";
+}
+
+.wrapper .desc {
+    color: var(--white);
+    font-size: 1.3rem;
+
+}
+
+.total-sales, .auctions, .artists {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.nft-box-pc {
+    width: 100%;
+}
+
+.nft-desc .box-container {
+    height: 510px;
+}
+
+
+
+.nft-box-pc:hover {
+    cursor: pointer;
+}
+
+.nft-desc {
+
+flex-shrink: 0;
+align-self: stretch;
+background: #3B3B3B;
+border-radius: 0px 0px 20px 20px;
+
+}
+
+.nft-desc .owner-nft {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    align-items: center;
+}
+
+.nft-desc .desc-box-container {
+padding: 20px;
+
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+
+.nft-desc .nft-name, .nft-desc .name-owner {
+    color: var(--white);
+}
+
+.nft-desc .nft-name {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    flex: 1 0 0;
+}
+
+.nft-desc .name-owner {
+    font-size: 1rem;
+    flex: 1 0 0;
+}
+
+.nft-box-mobile {
+    display: none;
+}
+
+/* HEADER SECTION CSS: END */
+
+/* TRENDING SECTION CSS: START */
+
+.wrapper .trending-collection-head {
+    gap: 10px;
+}
+
+.wrapper .trending-nft-box {
+    display: flex;
+}
+
+/* TRENDING SECTION CSS: END */
