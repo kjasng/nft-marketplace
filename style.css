@@ -4,164 +4,339 @@
 
 /* HEADER SECTION CSS: START */
 
+/* HEADER SECTION CSS: START */
+
 .container {
-background: #2B2B2B;
-width: 100%;
+    background: #2b2b2b;
 }
 
 .wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 80px 0;
+}
+.hero-section {
     max-width: 1050px;
-    margin: auto;
-    padding: 80px 115px;
+    display: flex;
+    flex-direction: row;
     gap: 30px;
+    margin: auto;
 }
 
-.wrapper .hero-section, .wrapper .trending-collection-head {
+.hero-header {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.wrapper .hero-section .head {
+.hero-text {
     display: flex;
     gap: 20px;
     flex-direction: column;
 }
-
-.wrapper .headline {
+.hero-section .headline, .hero-section .subline, .trending-header .headline, .trending-header .subline {
     color: var(--white);
-    font-size: 4rem;
+    font-weight: 400;
+    line-height: 160%;
+    font-size: 22px;
+}
+
+.hero-section .headline, .trending-header .headline {
+    font-size: 67px;
     font-weight: 600;
     line-height: 110%;
 }
 
-.wrapper .subhead {
-    font-size: 1.3rem;
-    line-height: 160%;
-    color: var(--white);
-}
-
-.wrapper .sub-info {
+.getstarted-btn {
     display: flex;
-    gap: 30px;
-    flex-direction: column;
-}
-
-.wrapper .getstarted-btn {
     color: var(--white);
-    display: flex;
-    gap: 12px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     background: #A259FF;
     border-radius: 20px;
-    padding: 0 50px;
-    height: 50px;
-    width: 14rem;
+    width: max-content;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    height: 60px;
+    gap: 12px;
 }
 
-.wrapper .aditional-info {
+.hero-btn {
     display: flex;
-    flex-direction: row;
-    gap: 30px;
-
-}
-
-.wrapper .numb {
-    font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: 140%;
-color: var(--white);
-align-self: stretch;
-font-family: "Space Mono";
-}
-
-.wrapper .desc {
-    color: var(--white);
-    font-size: 1.3rem;
-
-}
-
-.total-sales, .auctions, .artists {
-    display: flex;
-    flex: 1;
     flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
 }
 
-.nft-box-pc {
+.analystics {
+    color: var(--white);
+    display: flex;
+    gap: 30px;
     width: 100%;
 }
 
-.nft-desc .box-container {
-    height: 510px;
+.analystics .aditional-info {
+    flex: 1;
 }
 
-
-
-.nft-box-pc:hover {
-    cursor: pointer;
+.hero-box {
+    width: 510px;
 }
 
-.nft-desc {
-
-flex-shrink: 0;
-align-self: stretch;
-background: #3B3B3B;
-border-radius: 0px 0px 20px 20px;
-
-}
-
-.nft-desc .owner-nft {
+.hero-info {
+    padding: 20px;
     display: flex;
-    flex-direction: row;
-    gap: 12px;
-    align-items: center;
-}
-
-.nft-desc .desc-box-container {
-padding: 20px;
-
-display: flex;
-flex-direction: column;
-gap: 10px;
+    gap: 10px;
+    flex-direction: column;
+    background: #3B3B3B;
+    border-radius: 0px 0px 20px 20px;
 
 }
 
-.nft-desc .nft-name, .nft-desc .name-owner {
+.nft-name, .nft-owner {
     color: var(--white);
 }
 
-.nft-desc .nft-name {
+.nft-owner {
     display: flex;
+    flex-direction: row;
     align-items: center;
+    gap: 12px;
+}
+
+.nft-name {
     font-size: 22px;
-    flex: 1 0 0;
+font-weight: 600;
+line-height: 140%; /* 30.8px */
+text-transform: capitalize;
 }
 
-.nft-desc .name-owner {
-    font-size: 1rem;
-    flex: 1 0 0;
+.analystics-num {
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-weight: 700;
+line-height: 140%; 
 }
 
-.nft-box-mobile {
+.analystics-name {
+    font-size: 23.99px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.getstarted-btn-mobile {
     display: none;
 }
 
-/* HEADER SECTION CSS: END */
-
-/* TRENDING SECTION CSS: START */
-
-.wrapper .trending-collection-head {
-    gap: 10px;
-}
-
-.wrapper .trending-nft-box {
+.pc {
     display: flex;
 }
 
-/* TRENDING SECTION CSS: END */
+.mobile {
+    display: none;
+}
+
+/* TRENDING CSS: START */
+
+.trending-wrapper {
+    padding: 80px 0;
+}
+
+.trending-section {
+    display: flex;
+    margin: auto;
+    max-width: 1050px;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.trending-header {
+    max-width: 1046px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.trending-image {
+    display: flex;
+    flex-direction: row;
+    max-width: 1050px;
+    gap: 30px;
+}
+
+.trending-image-cover {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.secondary-image-cover {
+    display: flex;
+    gap: 15px;
+}
+
+.more-info-box {
+    padding: 32px 15px;
+    text-decoration: none;
+    color: var(--white);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background: #A259FF;
+    font-family: "Space Mono";
+    font-size: 22px;
+    font-weight: 700;
+    justify-content: center;
+    flex: 1 0 0;
+}
+.nft-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.nft-owner-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.tablet {
+    display: none;
+}
+
+/* TRENDING CSS: END */
+
+/* CREATOR CSS: END */
+.creator-wrapper {
+    padding: 80px 0;
+}
+
+.creator-section {
+    margin: auto;
+    max-width: 1050px;
+    display: flex;
+    flex-direction: column;
+}
+
+.creator-top {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    align-items: flex-end;
+}
+
+.creator-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.creator-header .headline, .creator-header .subline {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+.creator-header .headline {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.rankings-btn {
+    display: flex;
+height: 60px;
+color: var(--white);
+padding: 0px 50px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+border-radius: 20px;
+border: 2px solid var(--Call-to-Action, #A259FF);
+
+}
+
+.creator-bottom {
+    max-width: 1050px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: nowrap;
+    margin-top: 60px;
+}
+
+.flexbox {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.creator-container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: #3B3B3B;
+    width: calc((100% - 75%) - 40px);
+    position: relative;
+}
+
+.creator-container:hover {
+    cursor: pointer;
+}
+
+.creator-num {
+    justify-content: center;
+    position: absolute;
+    left: 20px;
+    top: 18px;
+    display: flex;
+    width: 30px;
+    padding: 7px;
+    border-radius: 20px;
+    background: var(--Background, #2B2B2B);
+}
+
+.creator-info {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.creator-analystics {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    min-width: 188px;
+}
+
+.creator-info .creator-name, .creator-info .analystics-name, .creator-info .analystics-num {
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.creator-info .analystics-name {
+    color: #858584;
+    text-align: right;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.creator-info .analystics-num {
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+}
