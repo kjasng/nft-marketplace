@@ -245,17 +245,23 @@ line-height: 140%;
     line-height: 120%;
 }
 
+.rankings-btn-box {
+    flex: 1;
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .rankings-btn {
     display: flex;
-height: 60px;
-color: var(--white);
-padding: 0px 50px;
-justify-content: center;
-align-items: center;
-gap: 12px;
-border-radius: 20px;
-border: 2px solid var(--Call-to-Action, #A259FF);
-
+    height: 60px;
+    color: var(--white);
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #A259FF);
 }
 
 .creator-bottom {
@@ -288,10 +294,17 @@ border: 2px solid var(--Call-to-Action, #A259FF);
 }
 
 .creator-container:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.creator-container:hover {
     cursor: pointer;
 }
 
-.creator-num {
+.number-box {
+    background: var(--Background, #2B2B2B);
     justify-content: center;
     position: absolute;
     left: 20px;
@@ -300,7 +313,10 @@ border: 2px solid var(--Call-to-Action, #A259FF);
     width: 30px;
     padding: 7px;
     border-radius: 20px;
-    background: var(--Background, #2B2B2B);
+}
+
+.creator-num {
+    color: #858584;
 }
 
 .creator-info {
@@ -328,15 +344,20 @@ border: 2px solid var(--Call-to-Action, #A259FF);
 .creator-info .analystics-name {
     color: #858584;
     text-align: right;
-    font-size: 16px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+    min-width: 90px;
 }
 
 .creator-info .analystics-num {
-    font-size: 16px;
+    font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 140%;
+}
+
+.rankings-btn-box-mobile {
+    display: none;
 }

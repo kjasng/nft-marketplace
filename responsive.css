@@ -32,7 +32,7 @@
 
 /* HERO SECTION FOR TABLET: END */
 
-/* TRENDING SECTION FOR TABLE: START */
+/* TRENDING SECTION FOR TABLET: START */
     .trending-wrapper {
         padding: 40px 0;
     }
@@ -55,8 +55,53 @@
     .tablet {
         display: flex;
     }
-/* TRENDING SECTION FOR TABLE: END */
+/* TRENDING SECTION FOR TABLET: END */
 
+/* CREATOR SECTION FOR TABLET: START */
+    .creator-section {
+        align-items: center;
+    }
+    .creator-bottom, .creator-top {
+        width: 690px;
+    }
+
+    .creator-bottom {
+        margin-top: 40px;
+    }
+    .creator-header .headline {
+        font-size: 28px;
+    }
+    .creator-header .subline {
+        font-size: 16px;
+    }
+
+    .flexbox {
+        flex-direction: row;
+    }
+
+    .creator-container {
+        width: calc((100% - 50%) - 36px);
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    .creator-container img {
+        width: 60px;
+        height: 60px;
+    }
+    .creator-info {
+        align-items: flex-start;
+    }
+
+    .number-box {
+        left: 12px;
+        top: 13px;
+    }
+    .creator-analystics {
+        min-width: auto;
+        gap: 5px;
+    }
+/* CREATOR SECTION FOR TABLET: END */
 }
 
 
@@ -104,5 +149,56 @@
     .trending-section {
         gap: 40px;
     }
-/* TRENDING SECTION FOR MOBILE: START */
+/* TRENDING SECTION FOR MOBILE: END */
+
+/* CREATOR SECTION FOR MOBILE: START */
+    .creator-section {
+        align-items: center;
+    }
+    .creator-bottom, .creator-top {
+        width: 315px;
+    }
+    .creator-header .headline {
+        font-size: 28px;
+    }
+    .creator-header .subline {
+        font-size: 16px;
+    }
+
+    .flexbox {
+        flex-direction: row;
+    }
+
+    .creator-container {
+        width: 100%;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+
+    .creator-container:hover {
+        transform: scale(0.95);
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .creator-container img {
+        width: 60px;
+        height: 60px;
+    }
+    .creator-info {
+        align-items: flex-start;
+    }
+
+    .number-box {
+        left: 12px;
+        top: 13px;
+    }
+    .rankings-btn {
+        width: 100%;
+    }
+    .rankings-btn-box-mobile {
+        display: flex;
+        width: 100%;
+    }
+/* CREATOR SECTION FOR MOBILE: END */
 }
