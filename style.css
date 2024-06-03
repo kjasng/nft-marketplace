@@ -518,7 +518,7 @@ line-height: 140%;
     background: #3B3B3B;
 }
 
-.nfts-flexbox-pc:hover {
+.nfts-flexbox-pc:hover, .nfts-flexbox-mobile:hover {
     transform: scale(0.95);
     cursor: pointer;
     transition: all 0.3s ease;
