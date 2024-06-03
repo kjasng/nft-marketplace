@@ -147,6 +147,10 @@
         padding: 40px 0 80px 0;
     }
 
+    .nfts-box {
+        width: 690px;
+    }
+
     .discover-wrapper .mobile {
         display: none;
     }
@@ -163,6 +167,15 @@
         display: none;
     }
 /* DISCOVER SECTION FOR TABLET: END */
+
+/* COUNTDOWN SECTION FOR TABLET: START */
+    .countdown-container {
+        width: 670px;
+    }
+    .nft-inform .headline {
+        font-size: 38px;
+    }
+/* COUNTDOWN SECTION FOR TABLET: END */
 }
 
 
@@ -282,7 +295,7 @@
     }
 /* CATEGORIES SECTION FOR MOBILE: END */
 
-/* DISCOVER SECTION FOR TABLET: START */
+/* DISCOVER SECTION FOR MOBILE: START */
     .discover-wrapper {
         width: 375px;
         margin: auto;
@@ -308,5 +321,35 @@
     .see-all-btn {
         justify-content: center;
     }
-/* DISCOVER SECTION FOR TABLET: START */
+/* DISCOVER SECTION FOR MOBILE: END */
+
+/* COUNTDOWN SECTION FOR MOBILE: START */
+
+
+    .countdown-container {
+        flex-direction: column;
+        gap: 30px;
+
+        width: 315px;
+    }
+
+    .see-nft-btn-mobile {
+        width: 100%;
+        align-self: stretch;
+        justify-content: center;
+        padding: 22px 55px;
+        display: flex;
+        gap: 12px;
+        background: white;
+        border-radius: 20px;
+    }
+
+    .countdown-box {
+        width: 100%;
+    }
+
+    .countdown-container .pc {
+        display: none;
+    }
+/* COUNTDOWN SECTION FOR MOBILE: END */
 }
