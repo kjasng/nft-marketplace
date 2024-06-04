@@ -176,6 +176,93 @@
         font-size: 38px;
     }
 /* COUNTDOWN SECTION FOR TABLET: END */
+
+/* HIW SECTION FOR TABLET: START */
+.hiw-section {
+    padding: 40px 0;
+    width: 690px;
+}
+
+.hiw-header .headline {
+    font-size: 28px;
+}
+
+.hiw-header .subline {
+    font-size: 16px;
+}
+
+.hiw-container {
+    width: 690px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiw-flexbox {
+    padding: 10px 20px 30px 20px;
+    gap: 30px;
+}
+
+.hiw-name {
+    font-size: 16px;
+}
+
+.hiw-desc {
+    font-size: 12px;
+}
+
+
+/* HIW SECTION FOR TABLET: END */
+
+/* SUBSCRIBE SECTION FOR TABLE: START */
+
+.subscribe-section {
+    padding: 40px 0px 80px 0px;
+    width: 690px;
+}
+
+.subscribe-flexbox {
+    padding: 40px 30px;
+    gap: 30px;
+}
+.subscribe-flexbox img {
+    width: 300px;
+    height: 280px;
+}
+
+.subscribe-content {
+    width: 300px;
+}
+
+.subscribe-header .headline {
+    font-size: 28px;
+}
+
+.subscribe-header .subline {
+    font-size: 16px;
+}
+
+.subscribe-forms {
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.subscribe-forms input {
+    width: 100%;
+    height: 46px;
+    padding: 16px 20px;
+}
+
+.subscribe-forms .subscribe-btn {
+    width: 100%;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+    height: 46px;
+}
+
+/* SUBSCRIBE SECTION FOR TABLE: END */
+
 }
 
 
@@ -352,4 +439,49 @@
         display: none;
     }
 /* COUNTDOWN SECTION FOR MOBILE: END */
+
+/* HIW SECTION FOR MOBILE: START */
+    .hiw-section {
+        width: 315px;
+    }
+
+    .hiw-container {
+        width: 315px;
+        flex-direction: column;
+    }
+    .hiw-flexbox {
+        padding: 20px;
+        width: 100%;
+    }
+
+    .hiw-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .hiw-content img {
+        width: 100px;
+        height: 100px;
+    }
+/* HIW SECTION FOR MOBILE: END */
+
+
+/* SUBSCRIBE SECTION FOR MOBILE: START */
+
+.subscribe-section{
+    width: 315px;
+    padding: 40px 0 40px 0;
+}
+.subscribe-flexbox {
+    padding: 40px 0;
+    flex-direction: column;
+    background: var(--Background, #2B2B2B);
+}
+
+.subscribe-flexbox img {
+    height: 255px;
+    width: 100%;
+}
+/* SUBSCRIBE SECTION FOR MOBILE: END */
+
 }

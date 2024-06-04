@@ -642,6 +642,10 @@ line-height: 140%;
     align-items: center;
 }
 
+.see-nft-btn-mobile {
+    display: none;
+}
+
 .countdown-box {
     display: flex;
     width: 295px;
@@ -710,3 +714,172 @@ line-height: 140%;
 }
 
 /* COUNTDOWN CSS: END */
+
+/* HIW SECTION CSS: START */
+.hiw-section {
+    width: 1050px;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.hiw-header {
+    display: flex;
+    color: var(--white);
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hiw-header .headline {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.hiw-header .subline {
+    font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 160%;
+}
+
+.hiw-container {
+    margin-top: 48px;
+    width: 1050px;
+    flex-direction: row;
+    display: flex;
+    gap: 30px;
+}
+
+.hiw-flexbox {
+    display: flex;
+    width: calc(100% / 3);
+    padding: 10px 30px 30px 30px;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+}
+
+.hiw-flexbox:hover {
+    transform: scale(0.95);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hiw-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+}
+
+.hiw-name {
+    font-size: 22px;
+font-style: normal;
+font-weight: 600;
+line-height: 140%;
+}
+
+.hiw-desc {
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 140%;
+}
+/* HIW SECTION CSS: END */
+
+/* SUBSCRIBE SECTION CSS: START */
+.subscribe-section {
+    width: 1050px;
+    margin: auto;
+    padding: 40px 0 60px 0;
+}
+
+.subscribe-flexbox {
+    padding: 60px;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    border-radius: 20px;
+background: #3B3B3B;
+}
+
+.subscribe-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.subscribe-flexbox .headline {
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    color: var(--white);
+}
+
+.subscribe-flexbox .subline {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+color: var(--white);
+}
+
+.subscribe-forms {
+    display: flex;
+    gap: 12px;
+}
+
+.subscribe-forms input {
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+padding: 16px 36px 16px 20px;
+border-radius: 20px;
+background: var(--Text, #FFF);
+}
+
+.subscribe-btn {
+    border-radius: 20px;
+    background: var(--Call-to-Action, #A259FF);
+    height: 60px;
+    padding: 0px 50px;
+    position: relative;
+    left: -42px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: var(--white);
+}
+/* SUBSCRIBE SECTION CSS: END */
+
+/* FOOTER SECTION CSS: START */
+.footer-section {
+    width: 1050px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.logo-name {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nft-footer-desc {
+    color: var(--white)
+}
+
+.headline:hoevr {
+    cursor: pointer;
+}
+/* FOOTER SECTION CSS: END */
